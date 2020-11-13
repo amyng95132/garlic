@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <META HTTP-Equiv="KeyCapture" Content="KeyValue:All; Dispatch:False; KeyEvent:url('JavaScript:alert('Key Pressed: %s');')"> -->
+
+<script type="text/javascript" charset="utf-8" src="ebapi-modules.js"></script>
+
+<script>
+function disableKioskModeEHS() {
+	
+	//Disable Kiosk Mode:
+	var toDisable= new Boolean(false);
+	EB.Intent.send({
+		'intentType': EB.Intent.BROADCAST, 
+		'action': 'com.symbol.enterprisehomescreen.actions.MODIFY_KIOSK_MODE', 
+ 		'data': {'enable':toDisable}
+	});
+    
+}
+
+function enableKioskModeEHS() {
+	
+	//Disable Kiosk Mode:
+	var toDisable= new Boolean(true);
+	EB.Intent.send({
+		'intentType': EB.Intent.BROADCAST, 
+		'action': 'com.symbol.enterprisehomescreen.actions.MODIFY_KIOSK_MODE', 
+ 		'data': {'enable':toDisable}
+	});
+    
+}
+
+</script>
+
+
+  <head>
+    <meta charset="utf-8">
+	<title>Disable EHS Kiosk Mode</title>
+  </head>
+  <body>
+    <H1>To disaply kiosk mode</H1>
+    <br><br><br><br>
+    <button onclick="disableKioskModeEHS()">To disable kiosk mode EHS</button>
+<br><br><br><br>
+<br><br><br><br>
+    <button onclick="enableKioskModeEHS()">To enable kiosk mode EHS</button>
+  </body>
+</html>
