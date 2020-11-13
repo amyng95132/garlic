@@ -1,0 +1,625 @@
+<?xml version = "1.0"?>
+<!-- Enterprise Browser Button Configuration file -->
+<!-- TC8000L deviceWidth= 480px, deviceHeight=746px -->
+<Buttonbargroup>
+	
+	<ButtonBar1>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#003370" />
+		<barColorPressed value="#003370" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="0" />
+		<barTop value="0.595*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.42*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value =""/>
+				<buttonAction value =""/>
+				<buttonPreview value ="false"/>
+				<buttonClickable value="false"/>
+			</Button1>
+		</Buttons>
+	</ButtonBar1>
+	
+	<ButtonBar2>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#003370" />
+		<barColorPressed value="#003370" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="0" />
+		<barTop value="0.695*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.31*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value =""/>
+				<buttonAction value =""/>
+				<buttonPreview value ="false"/>
+				<buttonClickable value="false"/>
+			</Button1>
+		</Buttons>
+	</ButtonBar2>
+	
+	<ButtonBar16>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.9*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.1*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="123"/>
+				<buttonAction value ="runscript-togglescript1"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="ABC"/>
+				<buttonAction value ="runscript-togglescript2"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="FUNC"/>
+				<buttonAction value ="runscript-togglescript3"/>
+			</Button3>
+		</Buttons>
+	</ButtonBar16>
+	
+	<ButtonBar3>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.6*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="TAB"/>
+				<buttonAction value ="key-61"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="1"/>
+				<buttonAction value ="key-8"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="2"/>
+				<buttonAction value ="key-9"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="3"/>
+				<buttonAction value ="key-10"/>
+			</Button4>
+			<Button5>
+				<buttonAction value ="key-67"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/delete.png"/>
+				<buttonPreview value ="false"/>
+			</Button5>
+		</Buttons>
+	</ButtonBar3> 
+	
+	<ButtonBar4>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.7*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="."/>
+				<buttonAction value ="key-56"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="4"/>
+				<buttonAction value ="key-11"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="5"/>
+				<buttonAction value ="key-12"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="6"/>
+				<buttonAction value ="key-13"/>
+			</Button4>
+			<Button5>
+				<buttonAction value ="key-62"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/space.png"/>
+				<buttonPreview value ="false"/>
+			</Button5>
+		</Buttons>
+	</ButtonBar4> 
+	
+	<ButtonBar5>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.8*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="0"/>
+				<buttonAction value ="key-7"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="7"/>
+				<buttonAction value ="key-14"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="8"/>
+				<buttonAction value ="key-15"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="9"/>
+				<buttonAction value ="key-16"/>
+			</Button4>
+			<Button5>
+				<buttonAction value ="key-160"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/enter.png"/>
+				<buttonPreview value ="false"/>
+			</Button5>
+		</Buttons>
+	</ButtonBar5>
+	
+	<ButtonBar6>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.6*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="q"/>
+				<buttonAction value ="key-45"/>
+			</Button1>	
+			<Button2>
+				<buttonText value ="w"/>
+				<buttonAction value ="key-51"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="e"/>
+				<buttonAction value ="key-33"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="r"/>
+				<buttonAction value ="key-46"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="t"/>
+				<buttonAction value ="key-48"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="y"/>
+				<buttonAction value ="key-53"/>
+			</Button6>
+			<Button7>
+				<buttonText value ="u"/>
+				<buttonAction value ="key-49"/>
+			</Button7>
+			<Button8>
+				<buttonText value ="i"/>
+				<buttonAction value ="key-37"/>
+			</Button8>
+			<Button9>
+				<buttonText value ="o"/>
+				<buttonAction value ="key-43"/>
+			</Button9>
+			<Button10>
+				<buttonText value ="p"/>
+				<buttonAction value ="key-44"/>
+			</Button10>
+		</Buttons>
+	</ButtonBar6>
+ 	
+	<ButtonBar7>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.7*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="a"/>
+				<buttonAction value ="key-29"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="s"/>
+				<buttonAction value ="key-47"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="d"/>
+				<buttonAction value ="key-32"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="f"/>
+				<buttonAction value ="key-34"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="g"/>
+				<buttonAction value ="key-35"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="h"/>
+				<buttonAction value ="key-36"/>
+			</Button6>
+			<Button7>
+				<buttonText value ="j"/>
+				<buttonAction value ="key-38"/>
+			</Button7>
+			<Button8>
+				<buttonText value ="k"/>
+				<buttonAction value ="key-39"/>
+			</Button8>
+			<Button9>
+				<buttonText value ="l"/>
+				<buttonAction value ="key-40"/>
+			</Button9>
+		</Buttons>
+	</ButtonBar7>
+	
+	<ButtonBar8>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.8*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonAction value ="runscript-togglescript5"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/caps.png"/>
+				<buttonPreview value ="false"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="z"/>
+				<buttonAction value ="key-54"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="x"/>
+				<buttonAction value ="key-52"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="c"/>
+				<buttonAction value ="key-31"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="v"/>
+				<buttonAction value ="key-50"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="b"/>
+				<buttonAction value ="key-30"/>
+			</Button6>
+			<Button7>
+				<buttonText value ="n"/>
+				<buttonAction value ="key-42"/>
+			</Button7>
+			<Button8>
+				<buttonText value ="m"/>
+				<buttonAction value ="key-41"/>
+			</Button8>
+			<Button9>
+				<buttonAction value ="key-67"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/delete2.png"/>
+				<buttonPreview value ="false"/>
+			</Button9>
+		</Buttons>
+	</ButtonBar8> 
+	
+	<ButtonBar9>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.8*deviceHeight" />
+		<barWidth value="0.26*deviceWidth" />
+		<barHeight value="0.056*deviceHeight" />
+		<Buttons>
+            <Button1>
+            <buttonAction value ="runscript-enable"/>
+            <buttonImage value ="file://%INSTALLDIR%/keyboard.png"/>
+            </Button1>
+			<!-- <Button1>
+				<buttonText value ="F7"/>
+				<buttonAction value ="key-137"/>
+			</Button1> -->
+			<Button2>
+				<buttonAction value ="runscript-disable"/>
+                <buttonImage value ="file://%INSTALLDIR%/nokeyboard.png"/>
+			</Button2>
+			<!-- <Button3>
+				<buttonText value ="F9"/>
+				<buttonAction value ="key-139"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="F10"/>
+				<buttonAction value ="key-140"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="F11"/>
+				<buttonAction value ="key-141"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="F12"/>
+				<buttonAction value ="key-142"/>
+			</Button6> -->
+		</Buttons>
+	</ButtonBar9> 
+	
+	<ButtonBar10>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="50" />
+		<barFontSize value="14" />
+		<barGap value="10" />
+		<barLeft value="2" />
+		<barTextColor value="#AF7AC5" />
+        <barTextStyle value="bold" />
+		<barTop value="0.7*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="F1"/>
+				<buttonAction value ="key-131"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="F2"/>
+				<buttonAction value ="key-132"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="F7"/>
+				<buttonAction value ="key-137"/>
+			</Button3>
+			<!-- <Button4>
+				<buttonText value ="F4"/>
+				<buttonAction value ="key-134"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="F5"/>
+				<buttonAction value ="key-135"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="F6"/>
+				<buttonAction value ="key-136"/>
+			</Button6> -->
+		</Buttons>
+	</ButtonBar10>
+	
+	<ButtonBar11>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.6*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="Q"/>
+				<buttonAction value ="keyincaps-45"/>
+			</Button1>	
+			<Button2>
+				<buttonText value ="W"/>
+				<buttonAction value ="keyincaps-51"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="E"/>
+				<buttonAction value ="keyincaps-33"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="R"/>
+				<buttonAction value ="keyincaps-46"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="T"/>
+				<buttonAction value ="keyincaps-48"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="Y"/>
+				<buttonAction value ="keyincaps-53"/>
+			</Button6>
+			<Button7>
+				<buttonText value ="U"/>
+				<buttonAction value ="keyincaps-49"/>
+			</Button7>
+			<Button8>
+				<buttonText value ="I"/>
+				<buttonAction value ="keyincaps-37"/>
+			</Button8>
+			<Button9>
+				<buttonText value ="O"/>
+				<buttonAction value ="keyincaps-43"/>
+			</Button9>
+			<Button10>
+				<buttonText value ="P"/>
+				<buttonAction value ="keyincaps-44"/>
+			</Button10>
+		</Buttons>
+	</ButtonBar11>
+	
+	<ButtonBar12>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.7*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonText value ="A"/>
+				<buttonAction value ="keyincaps-29"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="S"/>
+				<buttonAction value ="keyincaps-47"/>
+			</Button2>
+			<Button3>
+				<buttonText value ="D"/>
+				<buttonAction value ="keyincaps-32"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="F"/>
+				<buttonAction value ="keyincaps-34"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="G"/>
+				<buttonAction value ="keyincaps-35"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="H"/>
+				<buttonAction value ="keyincaps-36"/>
+			</Button6>
+			<Button7>
+				<buttonText value ="J"/>
+				<buttonAction value ="keyincaps-38"/>
+			</Button7>
+			<Button8>
+				<buttonText value ="K"/>
+				<buttonAction value ="keyincaps-39"/>
+			</Button8>
+			<Button9>
+				<buttonText value ="L"/>
+				<buttonAction value ="keyincaps-40"/>
+			</Button9>
+		</Buttons>
+	</ButtonBar12> 
+	
+	<ButtonBar13>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="2" />
+		<barTop value="0.8*deviceHeight" />
+		<barWidth value="deviceWidth" />
+		<barHeight value="0.096*deviceHeight" />
+		<Buttons>
+			<Button1>
+				<buttonAction value ="runscript-togglescript2"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/caps_lock.png"/>
+				<buttonPreview value ="false"/>
+			</Button1>
+			<Button2>
+				<buttonText value ="Z"/>
+				<buttonAction value =" keyincaps-54 "/>
+			</Button2>
+			<Button3>
+				<buttonText value ="X"/>
+				<buttonAction value ="keyincaps-52"/>
+			</Button3>
+			<Button4>
+				<buttonText value ="C"/>
+				<buttonAction value ="keyincaps-31"/>
+			</Button4>
+			<Button5>
+				<buttonText value ="V"/>
+				<buttonAction value ="keyincaps-50"/>
+			</Button5>
+			<Button6>
+				<buttonText value ="B"/>
+				<buttonAction value ="keyincaps-30"/>
+			</Button6>
+			<Button7>
+				<buttonText value ="N"/>
+				<buttonAction value ="keyincaps-42"/>
+			</Button7>
+			<Button8>
+				<buttonText value ="M"/>
+				<buttonAction value ="keyincaps-41"/>
+			</Button8>
+			<Button9>
+				<buttonAction value ="key-67"/>
+				<buttonImage value ="file://%INSTALLDIR%/images/delete2.png"/>
+				<buttonPreview value ="false"/>
+			</Button9>
+		</Buttons>
+	</ButtonBar13>
+	
+	<ButtonBar14>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="630" />
+		<barTop value="0" />
+		<barWidth value="54" />
+		<barHeight value="64" />
+		<Buttons>
+			<Button1>
+			<buttonAction value ="runscript-togglescript1"/>
+			<buttonImage value ="file://%INSTALLDIR%/images/keyboard_down.png"/>
+			<buttonPreview value ="false"/>
+			</Button1>
+		</Buttons>
+	</ButtonBar14>
+	
+	<ButtonBar15>
+		<barOrientation value="Horizontal"/>
+		<barColor value="#0033cc" />
+		<barColorPressed value="#0040ff" />
+		<barTransparency value="0" />
+		<barFontSize value="20" />
+		<barGap value="3" />
+		<barLeft value="630" />
+		<barTop value="0" />
+		<barWidth value="54" />
+		<barHeight value="64" />
+		<Buttons>
+			<Button1>
+			<buttonAction value ="runscript-togglescript4"/>
+			<buttonImage value ="file://%INSTALLDIR%/images/keyboard_up.png"/>
+			<buttonPreview value ="false"/>
+			</Button1>
+		</Buttons>
+	</ButtonBar15>
+	
+</Buttonbargroup>

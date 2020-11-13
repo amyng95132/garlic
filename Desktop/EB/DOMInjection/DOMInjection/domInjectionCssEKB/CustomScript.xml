@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+    <!--  Enterprise Browser Custom Script definition file -->
+    <CustomScripts>
+        <enable>
+            EB.Sip.resetToDefault();
+            EB.Sip.show();
+            <!-- EB.Ekb.enable(); -->
+    
+        </enable>
+
+        <disable>
+            EB.Sip.disableAllIME();
+            <!-- EB.Ekb.disable(); -->
+    
+        </disable>
+
+
+    </CustomScripts>
+				

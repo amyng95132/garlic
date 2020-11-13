@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="testcssinjectiondom.css" pages='*'/>
+<script type='text/javascript' src='file://%INSTALLDIR%/amy.js' pages='*' /> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" pages='*'/>
+
+<meta http-equiv="Signal-Right" content="visibility:visible;left:160;top:130" pages='*'/>
+<meta http-equiv="QuitButton" content="visibility:visible;left:140;top:140" pages='*'/>
+ 
+
+
+
+

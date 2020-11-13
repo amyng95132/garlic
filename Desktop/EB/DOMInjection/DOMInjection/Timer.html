@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<script type="text/javascript" charset="utf-8" src="elements.js"></script>
+
+
+
+<script type="text/javascript">
+
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+document.getElementById("demo").innerHTML = date;
+    
+    function updateTime() {
+
+//https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/Android_Platform/GUID-AWT-PROFILE-ZEBRA.html
+// document.getElementById('time').innerHTML = myDate;
+
+    //     var currentTime = new Date();
+    //     var hours = currentTime.getHours();
+    //     var minutes = currentTime.getMinutes();
+    //     var seconds = currentTime.getSeconds();
+    //     if (minutes < 10){
+    //         minutes = "0" + minutes;
+    //     }
+    //     if (seconds < 10){
+    //         seconds = "0" + seconds;
+    //     }
+    //     var v = hours + ":" + minutes + ":" + seconds + " ";
+    //     if(hours > 11){
+    //         v+="PM";
+    //     } else {
+    //         v+="AM"
+    //     }
+    //     setTimeout("updateTime()", 1000);
+    //     document.getElementById('time').innerHTML=v;
+    // }
+    // updateTime();
+    
+</script>
+</head>
+<body>
+    <br><br><br><br><br>
+    <h4>Today date 1: <span id="time" /></h4><br><br><br>
+    <p id="demo"></p>
+  
+</body>
+</html>

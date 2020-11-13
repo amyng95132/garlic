@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="testcssinjectiondom.css" pages='*'/>
+<meta name="viewport" content="width=device-width, initial-scale=2.0" pages='*'/>
